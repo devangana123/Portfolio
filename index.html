@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="#" class="nav-link" data-target="home">Home</a>
+            <a href="#" class="nav-link" data-target="about">About</a>
+            <a href="#" class="nav-link" data-target="projects">Projects</a>
+            <a href="#" class="nav-link" data-target="contact">Contact</a>
+        </div>
+        <div class="navbar-right">
+            <a href="#" class="nav-link" data-target="blog">Blog</a>
+            <a href="#" class="nav-link" data-target="resume">Resume</a>
+        </div>
+    </nav>
+    <div class="carousel-container">
+        <div class="carousel">
+            <section id="home" class="carousel-item active">
+                <h1>Welcome to My Portfolio</h1>
+                <p>This is the home section.</p>
+            </section>
+            <section id="about" class="carousel-item">
+                <h1>About Me</h1>
+                <p>This is the about section. Here is some information about me.</p>
+                <p class="about-sec">Python Developer<br>
+                    TechSavvy Solutions, Silicon Valley<br>
+                    July 2020 - Present<br>
+                    Developed and maintained multiple web applications using Python and Django framework, resulting in a 20% increase in user engagement and a 30% decrease in page load time.
+                    Implemented RESTful APIs for seamless integration with external services, enhancing the scalability and flexibility of the applications.
+                    Designed and optimized database schemas using PostgreSQL, improving query performance and data integrity.
+                    Collaborated with cross-functional teams including UI/UX designers and frontend developers to deliver high-quality, user-centric web solutions within project deadlines.
+                    Implemented automated testing using pytest, ensuring code quality and minimizing the risk of regressions in production.
+                    Conducted code reviews and provided constructive feedback to team members, fostering a culture of continuous learning and improvement.
+                    Contributed to open-source projects on GitHub, receiving positive feedback from the community and gaining valuable experience in collaborative software development.</p>
+            </section>
+            <section id="projects" class="carousel-item">
+                <h1>My Projects</h1>
+                <p>This is the projects section. Here are some of my projects.</p>
+                <ul>
+                    <li class="project-list">E-commerce Website</li>
+                    <p class="project-para">Developed a full-fledged e-commerce platform using Django, featuring user authentication, product catalog, shopping cart, and payment processing functionalities.</p>
+                    <li class="project-list">Data Analysis Tool</li>
+                    <p class="project-para">Created a data analysis tool using Python and Pandas library to process and visualize large datasets, enabling data-driven decision-making for business stakeholders.</p>
+                    <li class="project-list">Automation Script</li>
+                    <p class="project-para">Wrote a Python script to automate repetitive tasks in a DevOps environment, resulting in significant time savings and improved productivity for the team.</p>
+                </ul>
+            </section>
+            <section id="contact" class="carousel-item">
+                <h1>Contact Me</h1>
+                <p>This is the contact section. Here is how you can contact me.</p>
+                <p>Find me on: </p>
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+                <a href="https://www.github.com/in/your-profile" target="_blank">GitHub</a>
+                <a href="https://www.noukari.com/in/your-profile" target="_blank">Noukari.com</a>
+            </section>
+            <section id="blog" class="carousel-item">
+                <h1>My Blog</h1>
+                <p>This is the blog section. Here are my blog posts.</p>
+                <p>You can visit my blog</p>
+                <a href="https://blog.shreyasprakash.com/" target="_blank">
+                <button class="button">Blog</button>
+            </section>
+            <section id="resume" class="carousel-item">
+                <h1 class="r">My Resume</h1>
+                <p class="r">This is the resume section. Here is my resume.</p>
+                <p class="r">See My resume</p>
+                <a href="https://docs.google.com/document/d/1jLizA_o_1WFrPwjslewEPEXH6GpthcZPjSJcoNsRI_M/edit" target="_blank">
+                <button class="button r">Resume</button>
+                </a>
+            </section>
+        </div>
+        <button class="carousel-control prev" id="prev"><</button>
+        <button class="carousel-control next" id="next">></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

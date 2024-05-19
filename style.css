@@ -1,0 +1,123 @@
+body{
+    background-image: url("girls.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1000;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
+.navbar-left,
+.navbar-right {
+    display: flex;
+}
+.carousel-container {
+    position: relative;
+    top: 50px; /* Adjust according to navbar height */
+}
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+.carousel-item {
+    min-width: 100%;
+    height: calc(100vh - 50px); /* Adjust according to navbar height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.carousel-item h1, .carousel-item p {
+    margin: 0;
+}
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1001;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+.project-list{
+    font-size: x-large;
+    text-decoration: black;
+    font-weight: bold;
+}
+.project-para{
+    color: rgb(2, 1, 7);
+    font-size: large;
+}
+.about-sec{
+    text-align: center  ;
+    color: rgb(18, 1, 68);
+    font-size: large;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #0056B3;
+    color: white;
+}
+.button:active {
+    background-color: #003D80;
+    color: white;
+}
+
+.r{
+    color: black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
